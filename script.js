@@ -73,7 +73,7 @@ let currentSlide = 0;
 // MÚSICA
 // =========================
 
-music.volume = 0.1;
+music.volume = 0.25;
 
 
 // =========================
