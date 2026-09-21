@@ -22,7 +22,7 @@ const slides = [
         image: "assets/margeyhomero.jpg",
 
         text: `
-            Flor, desde la primera vez que te vi
+            Flor, desde la primera vez que te ví
             <br>
             ya no quise estar con nadie más
             <br>
@@ -39,7 +39,7 @@ const slides = [
             <br>
             va a alimentar mas tu ansiedad...
             <br>
-            no quiero eso, quiero que estes feliz
+            no quiero eso, quiero que estes feliz y tranquila
             <br>
             por eso decidí encontrar un homero con un montón de girasoles para vos ❤️
         `
@@ -49,11 +49,11 @@ const slides = [
         image: "assets/tatuaje.jpg",
 
         text: `
-            Recuerda que te tengo conmigo en mi corazon
+            Recuerda que te tengo conmigo en mi corazón
             <br>
-            te quiero un monton hermosa ❤️
+            te quiero un montón hermosa ❤️
             <br>
-            de verdad me tenes loquito, muchisimo
+            de verdad me tenes loquito, muchísimo
             <br>
             a pesar de la distancia
         `
