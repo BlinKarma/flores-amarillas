@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Para ti 🌻</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="hero">
+
+        <div class="mobile-background">
+            <img
+                src="assets/san-clemente-noche.png"
+                alt=""
+            >
+        </div>
+
+        <div class="overlay"></div>
+
+        <section class="content">
+
+            <p class="location">
+                Una sorpresa para mi amorsote ❤️🔥🌻
+            </p>
+
+            <button id="openSurprise">
+                Abrir sorpresa 🌻
+            </button>
+
+        </section>
+
+    </main>
+
+    <audio id="backgroundMusic" loop>
+        <source src="assets/homeromargeboda.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="memoryModal" class="modal">
+
+        <div class="modal-content">
+
+            <button id="closeModal" class="close-button">
+                ×
+            </button>
+
+            <!-- Flecha anterior -->
+            <button id="prevSlide" class="carousel-button prev-button">
+                ‹
+            </button>
+
+            <!-- Contenido del carrusel -->
+            <div class="carousel">
+
+                <img
+                    id="carouselImage"
+                    src=""
+                    alt="Un recuerdo especial"
+                    class="memory-image"
+                >
+
+                <p
+                    id="carouselMessage"
+                    class="memory-message">
+                </p>
+
+                <div
+                    id="carouselCounter"
+                    class="carousel-counter">
+                </div>
+
+            </div>
+
+            <!-- Flecha siguiente -->
+            <button id="nextSlide" class="carousel-button next-button">
+                ›
+            </button>
+
+        </div>
+
+    </div>
+
+    
+    <script src="script.js"></script>
+
+    
+
+
+</body>
+</html>
